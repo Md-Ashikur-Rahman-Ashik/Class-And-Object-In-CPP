@@ -13,7 +13,8 @@ int main()
         cin >> integerArray[i];
     }
 
-    sort(integerArray, integerArray + arraySize);
+    // sort(integerArray, integerArray + arraySize);
+    sort(integerArray, integerArray + arraySize, greater<int>());
 
     for (int i = 0; i < arraySize; i++)
     {
